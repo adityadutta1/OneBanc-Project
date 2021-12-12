@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name" translatable="false">OneBanc</string>
+    <string name="front">FRONT</string>
+    <string name="back">BACK</string>
+    <string name="Order">Order</string>
+    <string name="North_Indian">North Indian</string>
+    <string name="Click_me_to_see">Click me to see</string>
+    <string name="Chinese">Chinese</string>
+    <string name="Mediterranean">Mediterranean</string>
+    <string name="South_Indian">South Indian</string>
+    <string name="Italian">Italian</string>
+    <string name="Pizza">Pizza</string>
+    <string name="Coffee">Coffee</string>
+    <string name="Dum_Aloo">Dum Aloo</string>
+    <string name="Swipe_here">Swipe here</string>
+    <string name="Pasta">Pasta</string>
+    <string name="Noodles">Noodles</string>
+    <string name="Momo">Momo</string>
+    <string name="Chicken_Leg">Chicken Leg</string>
+    <string name="Prawns">Prawns</string>
+    <string name="Salmon">Salmon</string>
+    <string name="Vada_pav">Vada pav</string>
+    <string name="Spaghetti">Spaghetti</string>
+    <string name="Lasagna">Lasagna</string>
+    <string name="Ravioli">Ravioli</string>
+    <string name="tnx">Thank you for your order.</string>
+    <string name="Back">Back to home screen</string>
+    <string name="Dosa">Dosa</string>
+    <string name="Idli">Idli</string>
+
+</resources>

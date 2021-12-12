@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:orientation="vertical"
+
+   >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:tint="@color/cardFront"
+        android:padding="16dp"
+        android:src="@drawable/rectangle"
+
+       />
+
+
+    <TextView
+        style="@style/Base.TextAppearance.AppCompat.Display1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:gravity="center"
+        android:text="@string/Chinese"
+        android:textColor="@color/white" />
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="70dp"
+        android:text="@string/Click_me_to_see"
+
+        android:onClick="flipCard1"
+        />
+</FrameLayout>

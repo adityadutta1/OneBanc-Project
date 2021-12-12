@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">BlogPost</string>
+    <string name="front">FRONT</string>
+    <string name="back">वापस</string>
+    <string name="Order">ओर्डेर</string>
+    <string name="North_Indian">नोर्थ इन्डिअन</string>
+    <string name="Click_me_to_see">देख्ने के लिये मुझे दबाय</string>
+    <string name="Chinese">चाईनीस</string>
+    <string name="Mediterranean">मेडिटरेनीयन</string>
+    <string name="South_Indian">दक्षिण भारतीय</string>
+    <string name="Italian">इटालियन</string>
+    <string name="Back">" वापस जाओ"</string>
+    <string name="Chicken_Leg">चि्केन लेग</string>
+    <string name="Coffee">कोफी</string>
+    <string name="Dosa">डोसा</string>
+    <string name="Dum_Aloo">दम अलू</string>
+    <string name="Idli">इडली</string>
+    <string name="Lasagna">लसाग्ना</string>
+    <string name="Momo">मोमो</string>
+    <string name="Noodles">नूड्ल्स</string>
+<string name="Pasta">पासता</string>
+<string name="Pizza">पिज़ा</string>
+    <string name="Prawns">झींगा</string>
+    <string name="Ravioli">रैवियोली</string>
+    <string name="Salmon">सैल्मन</string>
+<string name="Spaghetti">स्पघेटी</string>
+<string name="Vada_pav">वड़ा पाव</string>
+<string name="Swipe_here">यहाँ क्लिक करें</string>
+    <string name="tnx">धन्यवाद आपका दिन शुभ हो</string>
+
+</resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "936906441142",
+    "project_id": "flipanimation-9df46",
+    "storage_bucket": "flipanimation-9df46.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:936906441142:android:defe8bf8159d6c56408117",
+        "android_client_info": {
+          "package_name": "blog.droidsonroids.pl.blogpost"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "936906441142-ciud7bb2tjdf72jvbq26akuudve49c9g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBv_337x3iWIZ4tYCLZE8OX92l0yBUwooQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "936906441142-ciud7bb2tjdf72jvbq26akuudve49c9g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

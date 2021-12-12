@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<RelativeLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:overScrollMode="ifContentScrolls"
+    android:scrollbarStyle="insideOverlay"
+    android:scrollbars="vertical"
+    tools:context="blog.droidsonroids.pl.blogpost.MainActivity"
+
+    >
+
+
+
+    <FrameLayout
+        android:id="@+id/card_back"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+
+        >
+        <include layout="@layout/card_back" />
+
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/card_front"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:gravity="center"
+
+       >
+        <include layout="@layout/card_front" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/card_back1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@id/card_back"
+
+      >
+        <include layout="@layout/card_back1" />
+
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/card_front1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@id/card_front"
+        android:gravity="center"
+
+       >
+        <include layout="@layout/card_front1" />
+
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/card_back2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@id/card_back1"
+
+        >
+        <include layout="@layout/card_back2" />
+
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/card_front2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@id/card_front1"
+        android:gravity="center"
+
+        >
+        <include layout="@layout/card_front2" />
+
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/card_back3"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@id/card_back2"
+
+        >
+        <include layout="@layout/card_back3" />
+
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/card_front3"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@id/card_front2"
+        android:gravity="center"
+
+        >
+        <include layout="@layout/card_front3" />
+
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/card_back4"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@id/card_back3"
+
+        >
+        <include layout="@layout/card_back4" />
+
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/card_front4"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@id/card_front3"
+        android:gravity="center"
+
+        >
+        <include layout="@layout/card_front4" />
+
+    </FrameLayout>
+<Button
+    android:id="@+id/b1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/Order"
+    android:layout_centerInParent="true"
+    android:layout_below="@+id/card_front4"
+
+    >
+
+
+</Button>
+    <TextView
+        style="@style/Base.TextAppearance.AppCompat.Display1"
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt2"
+        android:textColor="#000080"
+
+
+        />
+    <TextView
+        style="@style/Base.TextAppearance.AppCompat.Display1"
+        android:id="@+id/txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/b1"
+        android:textColor="#FF0000"
+
+
+        />
+    <Spinner
+        android:id="@+id/spinner"
+        style="@style/Base.TextAppearance.AppCompat.Display1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/txt9"
+        />
+    <TextView
+        style="@style/Base.TextAppearance.AppCompat.Display1"
+        android:id="@+id/txt9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select your language"
+        android:layout_below="@+id/txt1"
+
+
+
+        />
+</RelativeLayout>
+</ScrollView>
